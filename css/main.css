@@ -1,5 +1,4 @@
-/* 글꼴 */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url(./font.css);
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +20,7 @@ body {
   width: 90%;
   max-width: 1280px;
   margin: auto;
-  background-color: #FAE0D4;
+  /* background-color: #FAE0D4; */
 }
 /* 전체 레이아웃 */
 .wrap {
@@ -40,7 +39,7 @@ header .inner {
   align-items: center;
 }
 header h1 {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;  
 }
 /* nav */
 .nav {
@@ -75,15 +74,16 @@ main {
 }
 .intro-text h2 {
   font-size: 48px;
-  font-family: Inter;
+  font-family: Inter;  
   margin-bottom: 3%;
 }
 .intro-text p {
   font-size: 20px;
-  font-family: Inter;
+  /* font-family: Inter; */
+  font-family: 'OwnglyphYuntaeng';
 }
 .intro-text br{
-    display: none;
+  display: none;
 }
 /* 필터 */
 .filter-btn {
@@ -101,7 +101,8 @@ main {
 }
 .card-list ul{
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
   gap: 32px 24px;
 }
 .card-list >ul >li{
@@ -128,7 +129,8 @@ main {
 }
 .card-list h3{
   font-size: 18px;
-  font-family: Inter;
+  /* font-family: Inter; */
+  font-family: 'OwnglyphYuntaeng';
   font-weight: 500;
 }
 .price{

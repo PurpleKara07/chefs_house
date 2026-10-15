@@ -1,0 +1,9 @@
+/* 글꼴 */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@font-face {
+    font-family: 'OwnglyphYuntaeng';
+    /* src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2608211801@font-160/font-160/온글잎 윤탱체.woff2') format('woff2'); */
+    src: url("../fonts/온글잎\ 윤탱체.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
